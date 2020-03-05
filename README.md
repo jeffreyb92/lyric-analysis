@@ -86,7 +86,7 @@ Once I had this dictionary, I created my vector for each of the lyrics in the da
 
 I decided that it might be worth the while to try and run a few different classification methods on the dataset to see which proved to be the best in terms of classifying the genres according to their lyrics. I decided to use **Logistic Regression**, **K-Nearest Neighbors**, **Naive-Bayes**, **Support Vector Machines**, and **Schotastic Gradient Descent**. 
 
-Due to having such a large sample size, each model took about 2 hours or more to run. As of time of this writing, only the first 3 Machine Learning models have run, and SVM is still currently running. In the meantime, this is what I have so far
+Due to having such a large sample size, each model took about 2 hours or more to run, with the exception of the Logistic Regression and Schotastic Gradient Descent.
 
 |Machine Learning Model|Score|
 |----------------------|-----|
@@ -96,11 +96,12 @@ Due to having such a large sample size, each model took about 2 hours or more to
 |K-Nearest Neighbors Test | 0.40|
 |Naive-Bayes Training | 0.26|
 |Naive-Bayes Test | 0.25|
+|SVM Training | 0.65|
+|SVM Test | 0.52|
+|SGD Training | 0.43|
+|SGD Test | 0.43|
 
-
-The other two models will be updated on this table whenever the tests decide to finish. 
-
-As far as analysis goes for what I have so far, there is a lot of room for improvement, but you can see where there might be potential in determining which tests might do better. It seems like Logistic Regression despite having a score 0.50, on the testing did about the same. I'm not sure if it's due to any implicit bias I'm not aware of, or if it's just because it's that good of a general classification method. The same thing goes with the Naive-Bayes model showing a good bit of potential. K-Nearest Neighbors in this example did not do as well as the others, but the n value could always be adjusted and we could see how it could improve depending on that. I would maybe try and implement a GridSearch or something to try and find the optimized n value for that and see what kind of results it would return.
+As far as analysis goes for what I have so far, there is a lot of room for improvement, but you can see where there might be potential in determining which tests might do better. It seems like Logistic Regression despite having a score 0.50, on the testing did about the same. I'm not sure if it's due to any implicit bias I'm not aware of, or if it's just because it's that good of a general classification method. The same thing goes with the Naive-Bayes model showing a good bit of potential. K-Nearest Neighbors in this example did not do as well as the others, but the n value could always be adjusted and we could see how it could improve depending on that. I would maybe try and implement a GridSearch or something to try and find the optimized n value for that and see what kind of results it would return. The SVM actually faired rather well in comparison to the others, having a higher training score, and testing score than the other classifiers. I wonder what some tweaking to the parameters might do the results as well, but that would be for another time.
 
 Looking back, there are a few things that I would do differently (and plan on doing later on in the future). The first thing I would do is I would definitely cut down the sample size. Even by cutting the data down to nearly a third of what it was, it was pretty ambitious to think that I could run these models in any sort of manner and not have them literally take hours to complete. I would probably cut down each genre to about 2,000 or so, just so that there is still a good amount to look through at 20,000 rows, but not an excessive amount like 140,000 rows. The other thing I definitely want to try and implement the next go around is using stopwords removal and lemmitization. I'm curious to see how it would improve the bag-of-words model output.
 
