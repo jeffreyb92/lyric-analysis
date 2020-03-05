@@ -88,18 +88,13 @@ I decided that it might be worth the while to try and run a few different classi
 
 Due to having such a large sample size, each model took about 2 hours or more to run, with the exception of the Logistic Regression and Schotastic Gradient Descent.
 
-|Machine Learning Model|Score|
-|----------------------|-----|
-|Logistic Regression Training | 0.50|
-|Logistic Regression Test | 0.49|
-|K-Nearest Neighbors Training | 0.58|
-|K-Nearest Neighbors Test | 0.40|
-|Naive-Bayes Training | 0.26|
-|Naive-Bayes Test | 0.25|
-|SVM Training | 0.65|
-|SVM Test | 0.52|
-|SGD Training | 0.43|
-|SGD Test | 0.43|
+|Machine Learning Model|Training Score|Testing Score|
+|----------------------|--------------|-------------|
+|Logistic Regression | 0.50| 0.49|
+|K-Nearest Neighbors | 0.58| 0.40|
+|Naive-Bayes | 0.26| 0.25|
+|Support Vector Machines | 0.65| 0.52|
+|Schotastic Gradient Descent| 0.43| 0.43|
 
 As far as analysis goes for what I have so far, there is a lot of room for improvement, but you can see where there might be potential in determining which tests might do better. It seems like Logistic Regression despite having a score 0.50, on the testing did about the same. I'm not sure if it's due to any implicit bias I'm not aware of, or if it's just because it's that good of a general classification method. The same thing goes with the Naive-Bayes model showing a good bit of potential. K-Nearest Neighbors in this example did not do as well as the others, but the n value could always be adjusted and we could see how it could improve depending on that. I would maybe try and implement a GridSearch or something to try and find the optimized n value for that and see what kind of results it would return. The SVM actually faired rather well in comparison to the others, having a higher training score, and testing score than the other classifiers. I wonder what some tweaking to the parameters might do the results as well, but that would be for another time.
 
