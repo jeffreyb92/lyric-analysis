@@ -111,44 +111,29 @@ On top of all that, there are other methods that if I had the time I probaby wou
 ### Studies done on Musical Genre Recognition
 [^1]: Fell, Michael and Sporleder, Caroline.
     Lyrics-based Analysis and Classification of 
-    Music, 2017.[URL](http://www.anthology.aclweb.org/C/
-    C14/C14-1059.pdf) 
+    Music, 2017.
+    [Link](http://www.anthology.aclweb.org/C/C14/C14-1059.pdf) <br><br>
     Howard,Sam, Silla Jr., Carlos N., and John-son, Colin G. 
     Automatic Lyrics-based Music GenreClassification in a 
-    Multilingual Setting.2009.[URL]
-    (https://pdfs.semanticscholar.org/e48c/
-    a0b7a1796747cd3e22ef0586bded9faaf4ae.pdf)<br><br>
+    Multilingual Setting.2009.
+    [Link](https://pdfs.semanticscholar.org/e48c/a0b7a1796747cd3e22ef0586bded9faaf4ae.pdf)<br><br>
     Mayer, Rudolph, Neumayer, Robert, and Rauber,
     Andreas. Rhyme and Style Features For Musi-cal 
-    Genre Classification by Song Lyrics.2008.[URL](https:/
-    /books.google.com/books?hl=en&lr=&
-    id=OHp3sRnZD-oC&oi=fnd&pg=PA337&dq=lyrics+2
-    classification&ots=oFKPqKdCa6&
-    sig=lzGHqWB3yJ5B-i_1FBR7Q0nYkBU#v=onepage&
-    q=lyrics%20classification&f=false)<br><br>
+    Genre Classification by Song Lyrics.2008.[Link](https://books.google.com/books?hl=en&lr=&id=OHp3sRnZD-oC&oi=fnd&pg=PA337&dq=lyrics+2classification&ots=oFKPqKdCa6&sig=lzGHqWB3yJ5B-i_1FBR7Q0nYkBU#v=onepage&q=lyrics%20classification&f=false)<br><br>
     Viswanathan, Ajay Prasadh, and Sundaraj,Sriram. Music 
-    Genre Classification.2015 [URL]
-    (http://www.ijecs.in/issue/v4-i10/38%20ijecs.pdf)<br><br>
+    Genre Classification.2015 [Link](http://www.ijecs.in/issue/v4-i10/38%20ijecs.pdf)<br><br>
     Perez-Sancho, Carlos, Rizo, 
     David and Iñesta,José M. Genre classification 
-    using chords andstochastic language models.2009.[URL]
-    (http://web.a.ebscohost.com/ehost/pdfviewer/
-    pdfviewer?vid=6&
-    sid=da8e8d82-9182-4995-bd67-4a0c6cd9df81%40sessio
-    nmgr4010)<br><br>
+    using chords andstochastic language models.2009.
+    [Link](http://web.a.ebscohost.com/ehost/pdfviewer/pdfviewer?vid=6&sid=da8e8d82-9182-4995-bd67-4a0c6cd9df81%40sessionmgr4010)<br><br>
     Perez-Sancho, Carlos, Rizoa, David, 
     Iñesta,Jose M., Ponce de Leon, Pedro J., 
     Kersten, andRamirez, Rafael.  Genre 
-    Classification of Mu-sic by Tonal Harmony.2010.[URL]
-    (http://web.b.ebscohost.com/ehost/pdfviewer/
-    pdfviewer?vid=3&
-    sid=0380a4c2-4c17-4c1a-b34a-0b179ed19196%40sessio
-    nmgr101)<br><br>
+    Classification of Mu-sic by Tonal Harmony.2010.
+    [Link](http://web.b.ebscohost.com/ehost/pdfviewer/pdfviewer?vid=3&sid=0380a4c2-4c17-4c1a-b34a-0b179ed19196%40sessionmgr101)<br><br>
     Bacgi, Ulas, and Erzin, Engin. Inter 
     GenreSimilarity Modelling For Automatic Music 
-    GenreClassification.2009.[URL]
-    (https://arxiv.org/pdf/0907.3220.pdf)<br><br>
+    GenreClassification.2009. [Link](https://arxiv.org/pdf/0907.3220.pdf)<br><br>
     Tsaptsinos, Alexandros. 
     Lyrics-based MusicGenre Classification Using a 
-    Hierarchical Atten-tion Network.2017.[URL]
-    (https://arxiv.org/pdf/1707.04678.pdf3)
+    Hierarchical Atten-tion Network.2017. [Link](https://arxiv.org/pdf/1707.04678.pdf3)
