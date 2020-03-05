@@ -43,6 +43,8 @@ Once I did that, I looked again at the value counts of the genres and noticed th
 
 Due to a user-error (my bad) I hadn't realized that the logic on the first run wasn't correct, and so alongside deleting rows from the "Rock" genre, it also deleted rows from other genres as well. I was able to catch it before it did too much, but there were about another 10,000 rows deleted on top of the ones from the "Rock" genre. This brought the total amount of rows down to about 145,000. 
 
+# Getting the Data Ready for the Machine Learning Models
+
 Once I had all this done, next was to get the data ready for analysis. I added a column called "genre label" and wrote a piece of code that assigned each genre a different number from 0-9. At the same time I utilized an NLP tool called "nltk" and after I changed all the words to lowercase, use the "word_tokenize" method to tokenize all the lyrics in a given song and put it into a list. 
 
 Code used for that:
@@ -79,6 +81,8 @@ Code used for that:
 After that was completed, I then used a "Bag-of-words" model and created a dictionary with all the words used and their respective count in the dataset. In the end, there was about 367,000 unique words in the dataset, or about 2.5-3 unique words per song. In order to have the Machine Learning models actually run and not take up a ton of memory space, I only used the top 300 words that were in the dictionary using a library called "heapq" and its nthlargest method to extract them. Due to time constraints, I wasn't able to do things like remove stopwords or do any sort of lemmatization or stemming, but I do hope to implement this in the future and compare results. 
 
 Once I had this dictionary, I created my vector for each of the lyrics in the dataset and was ready to start running tests. I used the "train_test_split" library from sklearn to split my data with a test size of 20% and the training size to be 80% of the data.
+
+# Running the Machine Learning Models
 
 I decided that it might be worth the while to try and run a few different classification methods on the dataset to see which proved to be the best in terms of classifying the genres according to their lyrics. I decided to use **Logistic Regression**, **K-Nearest Neighbors**, **Naive-Bayes**, **Support Vector Machines**, and **Schotastic Gradient Descent**. 
 
